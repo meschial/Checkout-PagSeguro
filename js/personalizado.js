@@ -108,8 +108,11 @@ function recupParcelas(bandeira) {
                     //Converter o preço para o formato real com JavaScript
                     var valorParcela = objb.installmentAmount.toFixed(2).replace(".", ",");
 
+                    //Acrecentar duas casas decimais apos o ponto
+                    var valorParcelaDouble = objb.installmentAmount.toFixed(2);
+
                     //Apresentar quantidade de parcelas e o valor das parcelas para o usuário no campo SELECT
-                    $('#qntParcelas').show().append("<option value='" + objb.quantity + "' data-parcelas='" + objb.installmentAmount + "'>" + objb.quantity + " parcelas de R$ " + valorParcela + "</option>");
+                    $('#qntParcelas').show().append("<option value='" + objb.quantity + "' data-parcelas='" + valorParcelaDouble + "'>" + objb.quantity + " parcelas de R$ " + valorParcela + "</option>");
                 });
             });
         },
@@ -170,9 +173,11 @@ function recupHashCartao() {
                 dataType: 'json',
                 success: function(retorna){
                     console.log("Sucesso " + JSON.stringify(retorna));
+                    $("#msg").html('<p style="color: green">Transação realizada com sucesso</p>');
                 },
                 error: function(retorna){
-                    console.log("Erro");
+                    console.log("Erro" + JSON.stringify(retorna));
+                    $("#msg").html('<p style="color: #FF0000">Erro ao realizar a transação</p>')
                 }
             });
         }

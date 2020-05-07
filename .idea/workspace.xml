@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d03ee3-dcc5-4cbb-9746-ccc1c7a8803c" name="Default Changelist" comment="" />
+    <list default="true" id="08d03ee3-dcc5-4cbb-9746-ccc1c7a8803c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/celke.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/celke.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cancelar.php" beforeDir="false" afterPath="$PROJECT_DIR$/cancelar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conexao.php" beforeDir="false" afterPath="$PROJECT_DIR$/conexao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuracao.php" beforeDir="false" afterPath="$PROJECT_DIR$/configuracao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copia.php" beforeDir="false" afterPath="$PROJECT_DIR$/copia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estornar.php" beforeDir="false" afterPath="$PROJECT_DIR$/estornar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/personalizado.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personalizado.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pesquisaAvancada.php" beforeDir="false" afterPath="$PROJECT_DIR$/pesquisaAvancada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pesqusiar.php" beforeDir="false" afterPath="$PROJECT_DIR$/pesqusiar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +28,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bVQKofGe5Qzthb7UtXTd3PXFn2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tcc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../salvar-transacao-bd" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,6 +54,7 @@
       <updated>1588714719965</updated>
       <workItem from="1588714721253" duration="10113000" />
       <workItem from="1588781079858" duration="4319000" />
+      <workItem from="1588858443999" duration="1384000" />
     </task>
     <servers />
   </component>
@@ -42,10 +62,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="293" y="283" key="FileChooserDialogImpl" timestamp="1588785054900">
+    <state x="293" y="283" key="FileChooserDialogImpl" timestamp="1588860867099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="293" y="283" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588785054900" />
+    <state x="293" y="283" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588860867099" />
     <state x="348" y="456" key="NewPhpFileDialog" timestamp="1588729718186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
